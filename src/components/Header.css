@@ -1,0 +1,76 @@
+.header {
+  margin-bottom: 20px;
+}
+.headerSection__top {
+  background-color: #f5f5f5;
+}
+.header__advert > img {
+  /* margin-left: 45px; */
+  padding-left: 300px;
+}
+.header__wording {
+  display: flex;
+}
+.header__wording > h5 {
+  padding-left: 420px;
+  padding-bottom: 10px;
+  color: rgb(255, 153, 0);
+}
+.header__wording > h5:hover {
+  cursor: pointer;
+}
+.headerSection__bottom {
+  display: flex;
+  margin-top: 10px;
+  padding-left: 100px;
+}
+.jumia__logo {
+  padding-left: 100px;
+}
+.headerSection__bottom .jumia__logo > img {
+  width: 100%;
+  height: 60px;
+}
+.searchbar {
+  padding-left: 40px;
+  margin-top: 15px;
+}
+.searchbar > input {
+  height: 40px;
+  width: 500px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.searchbar > button {
+  background-color: #f68b1e;
+  margin-left: 10px;
+  height: 40px;
+  border-radius: 5px;
+  width: 80px;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  box-shadow: 2px 2px 10px grey;
+}
+.logIns {
+  margin-left: 15px;
+  margin-top: 25px;
+  cursor: pointer;
+  font-size: larger;
+}
+.logIns > .MuiSvgIcon-root {
+  /* margin-top: 40px; */
+  /* padding-top: 5px; */
+}
+.help {
+  margin-left: 15px;
+  margin-top: 25px;
+  cursor: pointer;
+  font-size: larger;
+}
+.cart {
+  margin-left: 15px;
+  margin-top: 25px;
+  cursor: pointer;
+  font-size: larger;
+}

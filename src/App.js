@@ -1,9 +1,24 @@
 import "./App.css";
+import Body from "./components/Body";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <h1>Jumia coming 🔥🔥🔥</h1>
+      {/* ********************Header ********************/}
+      <Header />
+      {/* ********************Header ********************/}
+      {/* ********************Body ********************/}
+      <Body />
+      {/* ********************Body ********************/}
+      {/* ********************Main Body with products ********************/}
+      {/* //// */}
+      {/* ********************Main Body with products ********************/}
+
+      {/* ********************Footer ********************/}
+      {/* --Subscribe footer 
+          --Navigation footer */}
+      {/* ********************Footer ********************/}
     </div>
   );
 }
